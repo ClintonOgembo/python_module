@@ -27,8 +27,8 @@ languages = ["Python", "Dart", "Web", 23,"php", "java"]
 print(languages)
 
 # slicing a list
-print(languages[2:4])
-print(languages[4:])
+print(languages[2:4]) # index 2 inclusive while index 4 is exclusive
+print(languages[2:]) # returns all the items from index 2 upto the end
 # it counts from the end backwards when you use a negative index
 print(languages[-2])
 
