@@ -35,6 +35,7 @@ print(languages[2])
 # Tuples once created cannot be modified.
 products = ('lotion',34.4,'Shoes',21)
 print(products)
+print(products[2])
 
 #SETS:
 #The Set is an unordered collection of unique items.
