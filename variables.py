@@ -27,6 +27,7 @@ languages = ["Python", "Dart", "Web", 23,"php", "java"]
 print(languages)
 
 # slicing a list
+print(languages[2:4])
 print(languages[4:])
 # it counts from the end backwards when you use a negative index
 print(languages[-2])
