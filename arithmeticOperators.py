@@ -11,7 +11,7 @@ pwr = 4 ** 2
 print(pwr)
 
 # float division
-div = 4//2 
+div = 4/2 
 print(div)
 
 # floor division 

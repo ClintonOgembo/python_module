@@ -23,8 +23,13 @@ print(type(num))
 #A list is an ordered collection of similar or different types
 #  of items separated by commas and enclosed within brackets [ ]
 # list data type
-languages = ["Python", "Dart", "Web", 23]
+languages = ["Python", "Dart", "Web", 23,"php", "java"]
 print(languages)
+
+# slicing a list
+print(languages[4:])
+# it counts from the end backwards when you use a negative index
+print(languages[-2])
 
 # accessing list items using index
 print(languages[2])
