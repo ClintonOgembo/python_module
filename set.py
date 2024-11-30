@@ -58,7 +58,7 @@ print(anyset) # returns true if any element of the set is true. if the set is em
 for i in my_set:
     print('iteration:', i)
 
-
+# SETS OPERATIONS: (union,intersection,difference)
 
 
 
