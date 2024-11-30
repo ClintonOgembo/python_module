@@ -77,3 +77,43 @@ sortedData = sorted(C&D)
 print("Intersection using & operator : ", C & D)
 print("Intersection using intersection() : ", C.intersection(D))
 print("Intersection of sorted elements :", sortedData)
+
+# Difference : of E and F are elements of E that are not in F
+E = {2, 3, 5, 7}
+F = {1, 3, 5, 11}
+print('Difference uning - :', E-F)
+print('Difference uning difference() :', E.difference(F))
+
+# Symmetric Difference : All elements in M and N without the common elements
+M = {8, 4, 2, 0}
+N = {4, 14, 8, 12, 16}
+print("Symmetric difference using symmetric_difference : ", M.symmetric_difference(N))
+print("Symmetric difference using ^ : ", M ^ N)
+
+# check if two sets are equal
+# A and B sets are equal if they have the same number of elements and all elements in set A are in set B and vice versa
+# we use == operator 
+if M == N:
+    print('set M and N are equal')
+else:
+    print('set M and N are not equal')
+
+# add()
+M.add(6)
+print(M)
+
+# clear()
+M.clear()
+print(M)
+
+# copy()
+n = N.copy()
+print(n)
+
+# pop()
+N.pop()
+print(N)
+
+# remove()
+N.remove(14)
+print(N)
