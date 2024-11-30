@@ -59,6 +59,21 @@ for i in my_set:
     print('iteration:', i)
 
 # SETS OPERATIONS: (union,intersection,difference)
+# UNION : all elements in both sets without duplicatess
+#We use the | operator or the union() method to perform the set union operation.
+A = {1, 3, 5, 2}
+B = {0, 2, 4}
 
+# perform union operation using |
+print('Union using | : ', A | B)
 
+# perform union operation using union()
+print('Union using union() : ', A.union(B))
 
+# INTERSECTION: common elements in both sets
+C = {5, 6, 7, 8}
+D = {7, 8, 9}
+sortedData = sorted(C&D)
+print("Intersection using & operator : ", C & D)
+print("Intersection using intersection() : ", C.intersection(D))
+print("Intersection of sorted elements :", sortedData)
