@@ -28,3 +28,10 @@ am a software engineer
 '''
 print(message)
 
+# comparison of strings
+str1 = "hello, world"
+str2 = "hello, world ? hope mko best"
+str3 = "hello, world"
+
+print(str1 == str2) # prints false
+print(str1 == str3) # prints true
