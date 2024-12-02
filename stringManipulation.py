@@ -61,3 +61,8 @@ print((Greet))
 
 Greet = greet.lower() # back to lower case hello
 print((Greet))
+
+# partition - returns a tuple
+newtuple = greet.partition(greet)
+print(newtuple)
+print(type(newtuple))
