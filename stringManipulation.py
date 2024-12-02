@@ -35,3 +35,9 @@ str3 = "hello, world"
 
 print(str1 == str2) # prints false
 print(str1 == str3) # prints true
+
+# join one or more scripts
+greet = 'hello, '
+name = 'jacob'
+result = greet + name
+print(result)
