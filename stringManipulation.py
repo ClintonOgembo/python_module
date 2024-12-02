@@ -66,3 +66,11 @@ print((Greet))
 newtuple = greet.partition(greet)
 print(newtuple)
 print(type(newtuple))
+
+# Escape sequence
+# example = "He said, "What's there?"" 
+# print(example)
+# the above code throws an error to solve that we use escape character "\"
+
+Example = "He said, \"What's there?\""
+print(Example)
