@@ -41,3 +41,23 @@ greet = 'hello, '
 name = 'jacob'
 result = greet + name
 print(result)
+
+# iterate through a string
+for i in greet:
+    print(i)
+
+# length of a string
+# we use len()
+print(len(greet))
+
+# string membership test
+print('n' in 'Clinton') # True
+print('p' in 'Clinton') # False
+print('n' not in 'Clinton') # False
+
+# convertion of string to upper or lower case
+Greet = greet.upper() # to upper case HELLO
+print((Greet))
+
+Greet = greet.lower() # back to lower case hello
+print((Greet))
