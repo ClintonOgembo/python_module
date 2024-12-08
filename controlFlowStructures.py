@@ -57,11 +57,33 @@ while True:
         break
 
 # Exit a function and optionally return a value
-def greet():
-    return 'Hello'
+def greet(name):
+    return f'Hello, {name}'
+print(greet('Clinton'))
 
 # else with loops: executes only if the loop completes normally withoutb a break.
 for i in range(5):
     print(i)
 else:
     print("Loop completed")
+
+# try-except: handles exceptions that may occur during runtime
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+# try-except-else: excutes the else block if no exception occurs
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("Division successful")
+
+# try-except-finally: executes the finally block no matter what
+try:
+    result = 10 / 2
+finally:
+    print("Execution finished")
+
