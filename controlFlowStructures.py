@@ -55,3 +55,13 @@ while True:
     counter += 1
     if counter > 5:
         break
+
+# Exit a function and optionally return a value
+def greet():
+    return 'Hello'
+
+# else with loops: executes only if the loop completes normally withoutb a break.
+for i in range(5):
+    print(i)
+else:
+    print("Loop completed")
