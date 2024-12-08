@@ -31,6 +31,7 @@ while count <= 5:
 
 
 # Example of loop controls: break and continue
+
 for number in range(1, 10):  # Loop through numbers 1 to 9
     if number == 5:
         print("Breaking the loop at 5")
@@ -45,3 +46,12 @@ for number in range(1, 10):  # Loop through numbers 1 to 9
 for i in range(1, 4):  # Outer loop
     for j in range(1, 4):  # Inner loop
         print(f"Outer loop: {i}, Inner loop: {j}")
+
+# example of a do...while loop
+counter = 1
+
+while True:
+    print(f"Counter is at: {counter}")
+    counter += 1
+    if counter > 5:
+        break
