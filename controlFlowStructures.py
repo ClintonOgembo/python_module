@@ -89,8 +89,8 @@ finally:
 
 
 # Real world example
-correct_username = "admin"
-correct_password = "1234"
+correct_username = "Clinton OG"
+correct_password = "JacOb@254!*"
 is_authenticated = False
 
 while not is_authenticated:
