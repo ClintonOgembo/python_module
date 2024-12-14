@@ -87,3 +87,18 @@ try:
 finally:
     print("Execution finished")
 
+
+# Real world example
+correct_username = "admin"
+correct_password = "1234"
+is_authenticated = False
+
+while not is_authenticated:
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+    
+    if username == correct_username and password == correct_password:
+        print(f"Login successful! Welcome, {username}!")
+        is_authenticated = True
+    else:
+        print("Invalid username or password. Please try again.\n")
