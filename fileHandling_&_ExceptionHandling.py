@@ -6,7 +6,6 @@ except FileNotFoundError:
     print("File not found. Please check the filename.")
 
 
-
 try:
     file = open("sample.txt", "r")
     data = file.read()
